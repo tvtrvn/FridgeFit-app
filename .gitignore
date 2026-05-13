@@ -44,3 +44,6 @@ app-example
 # Added by code-review-graph
 .code-review-graph/
 .gitnexus
+
+# Claude Code local settings
+.claude/settings.local.json
