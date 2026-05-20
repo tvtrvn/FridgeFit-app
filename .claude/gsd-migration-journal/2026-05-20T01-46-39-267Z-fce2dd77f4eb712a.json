@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "appliedAt": "2026-05-20T01:46:39.267Z",
+  "appliedMigrationIds": [
+    "2026-05-11-first-time-baseline-scan"
+  ],
+  "actions": [
+    {
+      "migrationId": "2026-05-11-first-time-baseline-scan",
+      "migrationChecksum": "sha256:34608ea4e2f4e1c53b069604892860e603600d8573cc6a5584e4194044b48e67",
+      "type": "baseline-preserve-user",
+      "relPath": "agents/design-reviewer.md",
+      "reason": "known user-owned artifact preserved by first-time migration baseline",
+      "classification": "user-owned",
+      "originalHash": null,
+      "currentHash": null,
+      "status": "preserved"
+    },
+    {
+      "migrationId": "2026-05-11-first-time-baseline-scan",
+      "migrationChecksum": "sha256:34608ea4e2f4e1c53b069604892860e603600d8573cc6a5584e4194044b48e67",
+      "type": "baseline-preserve-user",
+      "relPath": "agents/expo-runner.md",
+      "reason": "known user-owned artifact preserved by first-time migration baseline",
+      "classification": "user-owned",
+      "originalHash": null,
+      "currentHash": null,
+      "status": "preserved"
+    },
+    {
+      "migrationId": "2026-05-11-first-time-baseline-scan",
+      "migrationChecksum": "sha256:34608ea4e2f4e1c53b069604892860e603600d8573cc6a5584e4194044b48e67",
+      "type": "baseline-preserve-user",
+      "relPath": "agents/gitnexus-scout.md",
+      "reason": "known user-owned artifact preserved by first-time migration baseline",
+      "classification": "user-owned",
+      "originalHash": null,
+      "currentHash": null,
+      "status": "preserved"
+    },
+    {
+      "migrationId": "2026-05-11-first-time-baseline-scan",
+      "migrationChecksum": "sha256:34608ea4e2f4e1c53b069604892860e603600d8573cc6a5584e4194044b48e67",
+      "type": "baseline-preserve-user",
+      "relPath": "agents/rn-screen-builder.md",
+      "reason": "known user-owned artifact preserved by first-time migration baseline",
+      "classification": "user-owned",
+      "originalHash": null,
+      "currentHash": null,
+      "status": "preserved"
+    },
+    {
+      "migrationId": "2026-05-11-first-time-baseline-scan",
+      "migrationChecksum": "sha256:34608ea4e2f4e1c53b069604892860e603600d8573cc6a5584e4194044b48e67",
+      "type": "baseline-preserve-user",
+      "relPath": "agents/sqlite-migration.md",
+      "reason": "known user-owned artifact preserved by first-time migration baseline",
+      "classification": "user-owned",
+      "originalHash": null,
+      "currentHash": null,
+      "status": "preserved"
+    },
+    {
+      "migrationId": "2026-05-11-first-time-baseline-scan",
+      "migrationChecksum": "sha256:34608ea4e2f4e1c53b069604892860e603600d8573cc6a5584e4194044b48e67",
+      "type": "baseline-preserve-user",
+      "relPath": "agents/type-fixer.md",
+      "reason": "known user-owned artifact preserved by first-time migration baseline",
+      "classification": "user-owned",
+      "originalHash": null,
+      "currentHash": null,
+      "status": "preserved"
+    },
+    {
+      "migrationId": "2026-05-11-first-time-baseline-scan",
+      "migrationChecksum": "sha256:34608ea4e2f4e1c53b069604892860e603600d8573cc6a5584e4194044b48e67",
+      "type": "baseline-preserve-user",
+      "relPath": "agents/zustand-store.md",
+      "reason": "known user-owned artifact preserved by first-time migration baseline",
+      "classification": "user-owned",
+      "originalHash": null,
+      "currentHash": null,
+      "status": "preserved"
+    },
+    {
+      "migrationId": "2026-05-11-first-time-baseline-scan",
+      "migrationChecksum": "sha256:34608ea4e2f4e1c53b069604892860e603600d8573cc6a5584e4194044b48e67",
+      "type": "baseline-preserve-user",
+      "relPath": "settings.json",
+      "reason": "unknown install-surface file preserved by first-time migration baseline",
+      "classification": "unknown",
+      "originalHash": null,
+      "currentHash": "0bd160ee10c826d4bbb34f5c7892cb1e183b4694ee385f6869ae088992510558",
+      "status": "preserved"
+    },
+    {
+      "migrationId": "2026-05-11-first-time-baseline-scan",
+      "migrationChecksum": "sha256:34608ea4e2f4e1c53b069604892860e603600d8573cc6a5584e4194044b48e67",
+      "type": "baseline-preserve-user",
+      "relPath": "skills/gitnexus/gitnexus-cli/SKILL.md",
+      "reason": "known user-owned artifact preserved by first-time migration baseline",
+      "classification": "user-owned",
+      "originalHash": null,
+      "currentHash": null,
+      "status": "preserved"
+    },
+    {
+      "migrationId": "2026-05-11-first-time-baseline-scan",
+      "migrationChecksum": "sha256:34608ea4e2f4e1c53b069604892860e603600d8573cc6a5584e4194044b48e67",
+      "type": "baseline-preserve-user",
+      "relPath": "skills/gitnexus/gitnexus-debugging/SKILL.md",
+      "reason": "known user-owned artifact preserved by first-time migration baseline",
+      "classification": "user-owned",
+      "originalHash": null,
+      "currentHash": null,
+      "status": "preserved"
+    },
+    {
+      "migrationId": "2026-05-11-first-time-baseline-scan",
+      "migrationChecksum": "sha256:34608ea4e2f4e1c53b069604892860e603600d8573cc6a5584e4194044b48e67",
+      "type": "baseline-preserve-user",
+      "relPath": "skills/gitnexus/gitnexus-exploring/SKILL.md",
+      "reason": "known user-owned artifact preserved by first-time migration baseline",
+      "classification": "user-owned",
+      "originalHash": null,
+      "currentHash": null,
+      "status": "preserved"
+    },
+    {
+      "migrationId": "2026-05-11-first-time-baseline-scan",
+      "migrationChecksum": "sha256:34608ea4e2f4e1c53b069604892860e603600d8573cc6a5584e4194044b48e67",
+      "type": "baseline-preserve-user",
+      "relPath": "skills/gitnexus/gitnexus-guide/SKILL.md",
+      "reason": "known user-owned artifact preserved by first-time migration baseline",
+      "classification": "user-owned",
+      "originalHash": null,
+      "currentHash": null,
+      "status": "preserved"
+    },
+    {
+      "migrationId": "2026-05-11-first-time-baseline-scan",
+      "migrationChecksum": "sha256:34608ea4e2f4e1c53b069604892860e603600d8573cc6a5584e4194044b48e67",
+      "type": "baseline-preserve-user",
+      "relPath": "skills/gitnexus/gitnexus-impact-analysis/SKILL.md",
+      "reason": "known user-owned artifact preserved by first-time migration baseline",
+      "classification": "user-owned",
+      "originalHash": null,
+      "currentHash": null,
+      "status": "preserved"
+    },
+    {
+      "migrationId": "2026-05-11-first-time-baseline-scan",
+      "migrationChecksum": "sha256:34608ea4e2f4e1c53b069604892860e603600d8573cc6a5584e4194044b48e67",
+      "type": "baseline-preserve-user",
+      "relPath": "skills/gitnexus/gitnexus-refactoring/SKILL.md",
+      "reason": "known user-owned artifact preserved by first-time migration baseline",
+      "classification": "user-owned",
+      "originalHash": null,
+      "currentHash": null,
+      "status": "preserved"
+    }
+  ]
+}

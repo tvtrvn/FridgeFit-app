@@ -1,0 +1,127 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/thinh/.claude/hooks/gitnexus/detect-macos-upgrade.sh",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"/Users/thinh/.nvm/versions/node/v20.20.0/bin/node\" \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/gsd-check-update.js"
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/gsd-session-state.sh"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Grep|Glob|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node /Users/thinh/.claude/hooks/gitnexus/gitnexus-hook.cjs",
+            "timeout": 10,
+            "statusMessage": "Enriching with GitNexus graph context..."
+          }
+        ]
+      },
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"/Users/thinh/.nvm/versions/node/v20.20.0/bin/node\" \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/gsd-prompt-guard.js",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"/Users/thinh/.nvm/versions/node/v20.20.0/bin/node\" \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/gsd-read-guard.js",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"/Users/thinh/.nvm/versions/node/v20.20.0/bin/node\" \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/gsd-workflow-guard.js",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/gsd-validate-commit.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node /Users/thinh/.claude/hooks/gitnexus/gitnexus-hook.cjs",
+            "timeout": 10,
+            "statusMessage": "Checking GitNexus index freshness..."
+          }
+        ]
+      },
+      {
+        "matcher": "Bash|Edit|Write|MultiEdit|Agent|Task",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"/Users/thinh/.nvm/versions/node/v20.20.0/bin/node\" \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/gsd-context-monitor.js",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"/Users/thinh/.nvm/versions/node/v20.20.0/bin/node\" \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/gsd-read-injection-scanner.js",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/gsd-phase-boundary.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

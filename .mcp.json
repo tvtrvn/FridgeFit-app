@@ -9,6 +9,16 @@
       ],
       "cwd": "/Users/thinh/Desktop/WORKSPACE/FridgeFit-app",
       "type": "stdio"
+    },
+    "gitnexus": {
+      "command": "npx",
+      "args": [
+        "--yes",
+        "gitnexus",
+        "mcp"
+      ],
+      "cwd": "/Users/thinh/Desktop/WORKSPACE/FridgeFit-app",
+      "type": "stdio"
     }
   }
 }
