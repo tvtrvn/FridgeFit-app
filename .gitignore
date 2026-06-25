@@ -47,3 +47,11 @@ app-example
 
 # Claude Code local settings
 .claude/settings.local.json
+# gitnexus skill bundle is tool-generated (re-created by `gitnexus analyze`), keep out of git
+.claude/skills/gitnexus/
+
+# Fleet standard hygiene
+.next/
+build/
+.env
+.env.*

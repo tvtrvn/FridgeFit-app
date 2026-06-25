@@ -42,6 +42,13 @@ This project is indexed by GitNexus as **FridgeFit-app** (317 symbols, 455 relat
 
 <!-- gitnexus:end -->
 
+## Project rules
+
+- **Purpose:** FridgeFit — turn ingredients you already have into recipes you can cook tonight (local-first iOS/Android app).
+- **Layout:** `app/` (Expo Router screens) · `components/` · `stores/` (Zustand) · `services/` · `lib/` · `data/` · `hooks/` · `types/` · `constants/`.
+- **Build / test:** `npm start` (`expo start`) · `npm run ios` / `npm run android` / `npm run web` · `npm run lint` (`expo lint`). No test script defined.
+- **Do / don't:** Managed Expo (SDK 54) — don't edit native `ios/`/`android/`; recipe/nutrition data comes from TheMealDB + USDA, keep API access free-tier and offline-friendly. Global coding standards live in `~/.claude/CLAUDE.md`.
+
 <!-- skills:start -->
 ## Available Skills
 
